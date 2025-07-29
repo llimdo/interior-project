@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>이젠 인테리어</title>
+</head>
+<body>
+    <!--메인 섹션 시작-->
+    <div class="container my-5">
+        <div class="row">
+            <!--프로필 바 섹션 시작-->
+            <section class="col-md-5 col-lg-3">
+                <div class="bg-dark rounded text-white text-center my-3 p-4">
+                    <img src="./images/main-profile.jpg" class="img-fluid rounded-circle p-4" alt="프로필">
+                    <h2 class="fs-4 py-3">이젠 kim</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nam laborum sunt, quod deleniti sit eveniet ipsum. Vel animi minima ipsam illo saepe enim magni.</p>
+                    <div class="d-flex justify-content-evenly fs-4 py-3">
+                        <a href="https://www.youtube.com/" target="_blank" class="link-danger" aria-label="유튜브"><i class="bi bi-youtube"></i></a>
+                        <a href="#" aria-label="페이스북"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="인스타그램" class="link-warning"><i class="bi bi-instagram"></i></a>    
+                    </div>
+                </div>
+                <!--자격사항 리스트-->
+                <div class="card bg-dark text-white text-center">
+                    <div class="card-header">
+                        <h3 class="fs-5 m-1">자격사항</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">자격사항1</li>
+                        <li class="list-group-item">자격사항2</li>
+                        <li class="list-group-item">자격사항3</li>
+                    </ul>
+                </div>
+                <!--경력사항 리스트-->
+                <div class="card mt-3 bg-dark text-white text-center">
+                    <div class="card-header">
+                        <h3 class="fs-5 m-1">경력사항</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000-2022</p>
+                            <p class="fw-bolder m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000-2022</p>
+                            <p class="fw-bolder m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000-2022</p>
+                            <p class="fw-bolder m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <p class="text-muted m-1">2000-2022</p>
+                            <p class="fw-bolder m-1">Lorem, ipsum dolor.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--프로필 바 섹션 끝-->
+            <!--포트폴리오 섹션-->
+            <div class="col-md-7 col-lg-9">
+                <div class="row">
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./images/gallery1.jpg" class="card-img-top" alt="포트폴리오 사진1">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My 포트폴리오</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-outline-dark btn-sm">스토리보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./images/gallery2.jpg" class="card-img-top" alt="포트폴리오 사진2">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My 포트폴리오</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-outline-dark btn-sm">스토리보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 py-3">
+                        <div class="banner card text-center p-3">
+                            <div class="card-body">
+                                <button type="button"
+                                class="btn btn-outline-light px-4 rounded-pill"
+                                data-bs-toggle="modal"
+                                data-bs-target="#portflio-model">
+                                    <!--rounded-pill 알약모양-->
+                                    <i class="bi bi-image me-1"></i> 자연으로 열린 공간
+                                </button>
+
+                                <!--modal-->
+                                <div class="modal fade" id="portflio-model" tabindex="-1"
+                                aria-labelledby="portfliomodelLabal"
+                                aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">자연으로 열린 공간</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h3 class="fw-bold">Lorem ipsum dolor sit amet.</h3>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit explicabo doloremque libero dignissimos sapiente. Cupiditate.
+                                                </p>
+                                                <img src="./images/modal-img.jpg" alt="모달 이미지" class="img-fluid">
+                                                <p>
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque nesciunt ex voluptate impedit minus voluptas ea qui provident expedita? Soluta fugiat odio similique hic vel.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-dark btn-sm" data-bs-dismiss="modal">닫기</button>
+                                                <button type="button" class="btn btn-outline-danger btn-sm">뉴스 기사 보기</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./images/gallery3.jpg" class="card-img-top" alt="포트폴리오 사진3">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My 포트폴리오</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-outline-dark btn-sm">스토리보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./images/gallery4.jpg" class="card-img-top" alt="포트폴리오 사진4">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My 포트폴리오</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-outline-dark btn-sm">스토리보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./images/gallery5.jpg" class="card-img-top" alt="포트폴리오 사진5">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My 포트폴리오</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-outline-dark btn-sm">스토리보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 py-3">
+                        <div class="card">
+                            <div class="overflow-hidden rounded-top">
+                                <img src="./images/gallery6.jpg" class="card-img-top" alt="포트폴리오 사진6">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My 포트폴리오</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-outline-dark btn-sm">스토리보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--div class="row"-->
+            </div>
+        </div>
+    </div>
+    <!--메인 섹션 끝-->
+
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
