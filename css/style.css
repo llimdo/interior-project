@@ -1,13 +1,14 @@
-@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sunflower:wght@300&display=swap');
 
 body {
     font-family: "Noto Sans", sans-serif;
 }
 
-h1,h2,h3,h4,h5, .logo-font {
+h1, h2, h3, h4, .logo-font{
     font-family: "Sunflower", sans-serif;
+    font-weight: 700px;
 }
+
 /* 네비게이션 영역 */
 .nav-link.active,
 .nav-link:hover {
@@ -17,7 +18,7 @@ h1,h2,h3,h4,h5, .logo-font {
 
 /* 포트폴리오 섹션 */
 .card-img-top {
-    transition: transform 1s;
+    transition: transform .7s;
 }
 
 .card-img-top:hover {
@@ -25,10 +26,9 @@ h1,h2,h3,h4,h5, .logo-font {
     cursor: pointer;
 }
 
-/* 배너 모달 창*/
+/* 포트폴리오 섹션 배너 */
 .banner {
     background-image: url(../images/card-banner.jpg);
-    background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
