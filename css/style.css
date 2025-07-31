@@ -4,7 +4,7 @@ body {
     font-family: "Noto Sans", sans-serif;
 }
 
-h1, h2, h3, h4, .logo-font{
+h1, h2, h3, h4, h5, .logo-font{
     font-family: "Sunflower", sans-serif;
     font-weight: 700px;
 }
@@ -31,4 +31,16 @@ h1, h2, h3, h4, .logo-font{
     background-image: url(../images/card-banner.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+
+/* 연락처 부분 */
+.banner2 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.2)),url(../images/contact-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.abc {
+    background-color: rgb(255, 187, 0);
 }
